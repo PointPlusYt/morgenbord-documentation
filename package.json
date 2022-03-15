@@ -1,0 +1,15 @@
+{
+  "name": "morgenbord-documentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Djyp <d@tbnk.ca>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.36"
+  },
+  "dependencies": {}
+}
