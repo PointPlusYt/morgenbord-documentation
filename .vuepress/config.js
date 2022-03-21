@@ -39,7 +39,7 @@ module.exports = {
           children: [
             {
               text: 'Learn the basics',
-              link: '/Widgets/Basics',
+              link: '/Widgets',
             },
             {
               text: 'Demo',
