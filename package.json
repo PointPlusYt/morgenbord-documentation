@@ -1,15 +1,12 @@
 {
-  "name": "morgenbord-documentation",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Djyp <d@tbnk.ca>",
   "license": "MIT",
-  "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build"
-  },
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.36"
+    "vitepress": "^2.0.0-alpha.2",
+    "@catppuccin/vitepress": "^0.1.0"
   },
-  "dependencies": {}
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  }
 }

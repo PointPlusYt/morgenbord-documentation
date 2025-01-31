@@ -1,3 +1,27 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "Morgenbord Documentation"
+  tagline: My great project tagline
+  actions:
+    - theme: brand
+      text: Getting started
+      link: /Installation
+    - theme: alt
+      text: Widgets
+      link: /Widgets
+
+# features:
+#   - title: Feature A
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature B
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature C
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+---
+
 # Introduction to Morgenbord
 
 ## What is Morgenbord?
