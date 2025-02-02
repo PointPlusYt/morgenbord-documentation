@@ -17,7 +17,7 @@ export default {
     matomo({
       router: router,
       siteID: 2, // Replace with your site id
-      trackerUrl: "https://matomo.plus.yt" // Replace with your matomo url
+      trackerUrl: "https://matomo.plus.yt/" // Replace with your matomo url
     })
   },
 } satisfies Theme
