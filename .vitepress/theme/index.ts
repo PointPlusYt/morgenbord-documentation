@@ -8,11 +8,12 @@ import "@catppuccin/vitepress/theme/mocha/yellow.css";
 
 export default {
   extends: DefaultTheme,
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
-  },
+  Layout: MatomoWrapper,
+  // Layout: () => {
+  //   return h(DefaultTheme.Layout, null, {
+  //     // https://vitepress.dev/guide/extending-default-theme#layout-slots
+  //   })
+  // },
   enhanceApp({ app, router, siteData }) {
     app.component('MatomoWrapper', MatomoWrapper)
   },
