@@ -1,12 +1,15 @@
 {
   "license": "MIT",
   "devDependencies": {
-    "vitepress": "^2.0.0-alpha.2",
-    "@catppuccin/vitepress": "^0.1.0"
+    "@catppuccin/vitepress": "^0.1.0",
+    "vitepress": "^2.0.0-alpha.2"
   },
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "@datagouv/vitepress-plugin-matomo": "^1.0.5"
   }
 }

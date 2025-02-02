@@ -13,7 +13,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    // logo: '/Extra/images/logo.png',
+    // logo: '/public/images/logo.png',
     siteTitle: "MORGENBORD DOC",
     nav: [
       { text: 'Home', link: '/' },
@@ -52,8 +52,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/PointPlusYt/morgenbord-documentation' },
-      { icon: 'mastodon', link: 'https://blog.plus.yt/@pointplus' },
+      { icon: 'github', link: 'https://github.com/PointPlusYt' },
       { icon: 'wordpress', link: 'https://blog.plus.yt/' },
       { icon: 'youtube', link: 'https://www.youtube.com/pointplus' },
     ]

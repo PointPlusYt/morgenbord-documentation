@@ -2,6 +2,7 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import matomo from "@datagouv/vitepress-plugin-matomo";
 import "@catppuccin/vitepress/theme/mocha/yellow.css";
 // import './style.css'
 
@@ -13,6 +14,10 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
-  }
+    matomo({
+      router: router,
+      siteID: 2, // Replace with your site id
+      trackerUrl: "https://matomo.plus.yt" // Replace with your matomo url
+    })
+  },
 } satisfies Theme
