@@ -6,7 +6,7 @@ hero:
   name: Morgenbord
   text: Custom dashboard for everyone
   tagline: Made with 🎔 for your productivity
-  image: Extra/images/logo-L-transparent.png
+  image: ./public/images/logo-L-transparent.png
   actions:
     - theme: brand
       text: Getting started

@@ -186,6 +186,13 @@
   },
   "active": "5f0a06c18bccb4ef",
   "lastOpenFiles": [
+    "public/images/logo.png",
+    "public/images/logo-transparent.png",
+    "public/images/logo-L-transparent.png",
+    "public/images/icon-transparent.png",
+    "public/images/favicon.png",
+    "public/images",
+    "public",
     "index.md",
     "Extra/images/logo-L-transparent.png",
     "Extra/images/logo-transparent.png",
@@ -197,8 +204,6 @@
     "node_modules/vitepress/dist/client/theme-default/components/icons/VPIconSun.vue",
     "node_modules/vitepress/dist/client/theme-default/components/icons/VPIconPlusSquare.vue",
     "node_modules/vitepress/dist/client/theme-default/components/icons/VPIconPlus.vue",
-    "node_modules/vitepress/dist/client/theme-default/components/icons/VPIconMoreHorizontal.vue",
-    "node_modules/vitepress/dist/client/theme-default/components/icons/VPIconMoon.vue",
     "node_modules/@vue/compiler-sfc/README.md",
     "node_modules/@vue/compiler-core/README.md",
     "node_modules/@vitejs/plugin-vue/README.md",
@@ -223,14 +228,9 @@
     "node_modules/@vueuse/integrations/README.md",
     "node_modules/@ungap/structured-clone/README.md",
     "node_modules/@types/web-bluetooth/README.md",
-    "node_modules/@types/unist/README.md",
     "Extra/images/icon-transparent.png",
     "Extra/images/favicon.png",
     "Extra/images/logo.png",
-    "Extra/images/icon.png",
-    "Extra/images/icône.png",
-    "Extra/images/logo_white.png",
-    "Extra/logo_white.png",
-    "logo_white.png"
+    "Extra/images/icon.png"
   ]
 }
