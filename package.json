@@ -9,7 +9,5 @@
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
-  "dependencies": {
-    "@datagouv/vitepress-plugin-matomo": "^1.0.5"
-  }
+  "dependencies": {}
 }

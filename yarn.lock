@@ -175,11 +175,6 @@
   resolved "https://registry.yarnpkg.com/@catppuccin/vitepress/-/vitepress-0.1.0.tgz#fd18ed92644204a4e0e864c4f29c55f3ae73394a"
   integrity sha512-HJilKL8dzidGWwDBNcGVzDmjHocwhaxQ0tleRf0/Aab7MDCHK63jzoYHifXro6mH+AtK120WHfsHiJl54sSaww==
 
-"@datagouv/vitepress-plugin-matomo@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@datagouv/vitepress-plugin-matomo/-/vitepress-plugin-matomo-1.0.5.tgz#a5e707426fb7ec125ec34e5e10a1e28dd0e806cb"
-  integrity sha512-45aQRgV/e9gq/Y0AwKEUizUxaQWj+H5+IP6PO4VfJxX3HXfO112kS/yt8C34A6J6Ts/GrLdz6rHvBKNpn8vx+A==
-
 "@docsearch/css@3.8.3", "@docsearch/css@^3.8.3":
   version "3.8.3"
   resolved "https://registry.yarnpkg.com/@docsearch/css/-/css-3.8.3.tgz#12f377cf8c14b687042273f920efdfdb794e9fcf"

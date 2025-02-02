@@ -1,8 +1,8 @@
 // https://vitepress.dev/guide/custom-theme
-import { h } from 'vue'
-import type { Theme } from 'vitepress'
-import DefaultTheme from 'vitepress/theme'
-import matomo from "@datagouv/vitepress-plugin-matomo";
+import { h } from 'vue';
+import type { Theme } from 'vitepress';
+import DefaultTheme from 'vitepress/theme';
+import MatomoWrapper from './MatomoWrapper.vue';
 import "@catppuccin/vitepress/theme/mocha/yellow.css";
 // import './style.css'
 
@@ -14,10 +14,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    matomo({
-      router: router,
-      siteID: 2, // Replace with your site id
-      trackerUrl: "https://matomo.plus.yt/" // Replace with your matomo url
-    })
+    app.component('MatomoWrapper', MatomoWrapper)
   },
 } satisfies Theme
