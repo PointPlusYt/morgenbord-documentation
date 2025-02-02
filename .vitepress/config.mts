@@ -5,7 +5,7 @@ export default defineConfig({
   base: '/morgenbord-documentation/',
   title: "Morgenbord Documentation",
   description: "Morgenbord's Documentation",
-  head: [['link', { rel: 'icon', href: './public/images/icon-transparent.png' }]],
+  head: [['link', { rel: 'icon', href: '/public/images/icon-transparent.png' }]],
   lang: 'en-US',
   rewrites: {
     // 'README.md': 'index.md',
