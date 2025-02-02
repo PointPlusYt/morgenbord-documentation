@@ -2,12 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/morgenbord-documentation/',
   title: "Morgenbord Documentation",
   description: "Morgenbord's Documentation",
   head: [['link', { rel: 'icon', href: '/Extra/images/icon-transparent.png' }]],
   lang: 'en-US',
   rewrites: {
-    'README.md': 'index.md',
+    // 'README.md': 'index.md',
     '(.*)/README.md': '(.*)/index.md'
   },
   themeConfig: {
@@ -36,7 +37,7 @@ export default defineConfig({
         items: [
           {
             text: 'Learn the basics',
-            link: '/Widgets',
+            link: '/Basics',
           },
           {
             text: 'Demo',
