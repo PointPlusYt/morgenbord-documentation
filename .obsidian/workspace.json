@@ -186,6 +186,11 @@
   },
   "active": "5f0a06c18bccb4ef",
   "lastOpenFiles": [
+    "Widgets/index.md",
+    "Core/index.md",
+    "App/index.md",
+    "Installation.md",
+    "README.md",
     "node_modules/vue-matomo/src/utils.js",
     "node_modules/vue-matomo/src/index.js",
     "node_modules/vue-matomo/package.json",
@@ -198,7 +203,6 @@
     "node_modules/@datagouv/vitepress-plugin-matomo/docs/interfaces/IParameters.md",
     "node_modules/@datagouv/vitepress-plugin-matomo/types/tsdoc-metadata.json",
     "node_modules/@datagouv/vitepress-plugin-matomo/types/main.d.ts.map",
-    "node_modules/@datagouv/vitepress-plugin-matomo/types/main.d.ts",
     "node_modules/@datagouv/vitepress-plugin-matomo/docs/modules.md",
     "node_modules/@datagouv/vitepress-plugin-matomo/docs/README.md",
     "node_modules/@datagouv/vitepress-plugin-matomo/README.md",
@@ -227,10 +231,6 @@
     "node_modules/@vue/runtime-core/README.md",
     "node_modules/@vue/reactivity/README.md",
     "node_modules/@vue/devtools-shared/README.md",
-    "node_modules/@vue/devtools-kit/README.md",
-    "node_modules/@vue/devtools-api/README.md",
-    "node_modules/@vue/compiler-ssr/README.md",
-    "node_modules/@vue/compiler-dom/README.md",
-    "node_modules/@babel/types/README.md"
+    "node_modules/@vue/devtools-kit/README.md"
   ]
 }

@@ -7,10 +7,6 @@ export default defineConfig({
   description: "Morgenbord's Documentation",
   head: [['link', { rel: 'icon', href: '/public/images/icon-transparent.png' }]],
   lang: 'en-US',
-  rewrites: {
-    // 'README.md': 'index.md',
-    '(.*)/README.md': '(.*)/index.md'
-  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // logo: '/public/images/logo.png',

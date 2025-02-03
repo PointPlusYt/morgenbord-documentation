@@ -30,7 +30,7 @@ There is nothing to do ! MorgenBord uses SQLite. All data will be in `var/data.d
 
 ### Step 4 : Install widget bundles
 
-Widgets are installed with composer. You cna get a list of official widgets with [the widgets page](/Widgets/README).
+Widgets are installed with composer. You cna get a list of official widgets with [the widgets page](/Widgets/).
 
 
 ## Other matter
