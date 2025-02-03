@@ -2,13 +2,13 @@
 
 Congratulations for the decision of creating your own dashboard ! We are proud to have you as a user and-or contributor !
 
-To know more about MorgenBord's architecture, please start with [the architecture's basics on the main page](/#architecture).
+To know more about Morgenbord's architecture, please start with [the architecture's basics on the main page]().
 
 ## Requirements
 
 Make sure your PHP installation is compatible with Symfony 6.0
 
-MorgenBord has been built with SQLite in mind, you will need to install the [SQLite](https://www.php.net/manual/en/book.pdo-sqlite.php) extension.
+Morgenbord has been built with SQLite in mind, you will need to install the [SQLite](https://www.php.net/manual/en/book.pdo-sqlite.php) extension.
 
 ## Step by step
 
@@ -24,7 +24,7 @@ That's it, you have the right tree structure with the right dependencies, includ
 
 ### Step 2: Configuration
 
-There is nothing to do ! MorgenBord uses SQLite. All data will be in `var/data.db`. There is nothing to do here.
+There is nothing to do ! Morgenbord uses SQLite. All data will be in `var/data.db`. There is nothing to do here.
 
 ### Step 3 : Setting the first user
 

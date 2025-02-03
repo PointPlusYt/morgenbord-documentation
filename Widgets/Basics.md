@@ -1,4 +1,4 @@
-# MorgenBord's Basics
+# Morgenbord's Basics
 
 ## Bundles' architecture
 

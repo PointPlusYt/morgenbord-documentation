@@ -13,14 +13,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "index"
             }
           },
+          {
+            "id": "9149782403f05a87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction"
+            }
+          }
+        ]
+      },
+      {
+        "id": "97c5c902b28ecb54",
+        "type": "tabs",
+        "children": [
           {
             "id": "5f0a06c18bccb4ef",
             "type": "leaf",
@@ -35,8 +55,7 @@
               "title": "README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +88,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -179,18 +198,20 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "5f0a06c18bccb4ef",
+  "active": "f0902400d8b14c8b",
   "lastOpenFiles": [
+    "Introduction.md",
+    "index.md",
+    "README.md",
+    "Installation.md",
+    "Widgets/Basics.md",
+    "App/index.md",
     "Widgets/index.md",
     "Core/index.md",
-    "App/index.md",
-    "Installation.md",
-    "README.md",
     "node_modules/vue-matomo/src/utils.js",
     "node_modules/vue-matomo/src/index.js",
     "node_modules/vue-matomo/package.json",
@@ -216,7 +237,6 @@
     "Extra/images/logo-L-transparent.png",
     "Extra/images/icon-transparent.png",
     "Extra/images/favicon.png",
-    "index.md",
     "node_modules/@vue/compiler-sfc/README.md",
     "node_modules/@vue/compiler-core/README.md",
     "node_modules/@vitejs/plugin-vue/README.md",
@@ -229,8 +249,6 @@
     "node_modules/@vue/server-renderer/README.md",
     "node_modules/@vue/runtime-dom/README.md",
     "node_modules/@vue/runtime-core/README.md",
-    "node_modules/@vue/reactivity/README.md",
-    "node_modules/@vue/devtools-shared/README.md",
-    "node_modules/@vue/devtools-kit/README.md"
+    "node_modules/@vue/reactivity/README.md"
   ]
 }
