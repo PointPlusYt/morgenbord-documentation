@@ -45,6 +45,14 @@ export default defineConfig({
           },
         ],
       },
+      {
+        items: [
+          {
+            text: 'Glossary',
+            link: '/Glossary',
+          },
+        ],
+      },
     ],
 
     socialLinks: [
