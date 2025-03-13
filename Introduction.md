@@ -19,7 +19,7 @@ It is a web page, you can add it anywhere :
 
 This part is for tech savvies and geeks.
 
-In a nutshell, Morgenbord is an app you need to develop at least a little. It's based on Symfony so it is PHP based. You create your project with a composer command, you add existing widget with composer and you can use the symfony framework to add any feature to your app.
+In a nutshell, Morgenbord is an app you need to develop at least a little. It's based on Symfony so it is PHP based. You create your project with a composer command, you add existing widget with composer and you can use the Symfony framework to add any feature to your app.
 ## Architecture
 
 ### Basics
