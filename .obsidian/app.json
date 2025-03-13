@@ -1,5 +1,9 @@
 {
   "userIgnoreFilters": [
     "node_modules/"
-  ]
+  ],
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": false,
+  "showUnsupportedFiles": false,
+  "useMarkdownLinks": true
 }

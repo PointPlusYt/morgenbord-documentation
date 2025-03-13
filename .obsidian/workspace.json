@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "fd215ece4fbc3c13",
+        "id": "829ea832222de19f",
         "type": "tabs",
         "children": [
           {
-            "id": "30cb5f4d6887af26",
+            "id": "90fdf5ae2fae622e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
-            }
-          },
-          {
-            "id": "c093dfab073178d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Installation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Installation"
+              "title": "index"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,39 +165,48 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "obsidian-shellcommands:Shell commands: Custom variables": false
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "hide-folders:Show hidden folders": false
     }
   },
-  "active": "c093dfab073178d2",
+  "active": "90fdf5ae2fae622e",
   "lastOpenFiles": [
-    "Introduction.md",
-    "Installation.md",
-    "App/index.md",
-    "index.md",
-    "README.md",
-    "Core/index.md",
-    "Widgets/Basics.md",
-    "Widgets/Checklist.md",
     "Widgets/index.md",
-    "Widgets/Demo.md",
+    "Installation.md",
+    "index.md",
     "Getting started.md",
+    "App/index.md",
+    "index 1.md",
+    "Core/index.md",
+    "Widgets/Demo.md",
+    "Widgets/Checklist.md",
+    "Introduction.md",
+    "README.md",
+    "node_modules/markdown-it-wikilinks/test/fixtures/wikilinks.txt",
+    "node_modules/truncate-utf8-bytes/lib/truncate.js",
+    "node_modules/spec-url/test/test-runner.js",
+    "node_modules/spec-url/src/pct.js",
+    "node_modules/spec-url/test/run.js",
+    "node_modules/spec-url/test/ip-examples.js",
+    "node_modules/spec-url/src/index.js",
+    "node_modules/spec-url/src/host.js",
+    "node_modules/reurl/test/web-assert.js",
+    "node_modules/reurl/test/test-runner.js",
+    "node_modules/utf8-byte-length/README.md",
+    "node_modules/truncate-utf8-bytes/README.md",
+    "node_modules/spec-url/README.md",
+    "node_modules/sanitize-filename/README.md",
+    "node_modules/sanitize-filename/Changelog.md",
+    "node_modules/sanitize-filename/LICENSE.md",
+    "node_modules/reurl/README.md",
+    "node_modules/punycode/README.md",
+    "node_modules/markdown-it-wikilinks/README.md",
+    "node_modules/markdown-it-wikilinks/CHANGELOG.md",
+    "node_modules/markdown-it-regexp/README.md",
+    "node_modules/extend/README.md",
+    "node_modules/extend/CHANGELOG.md",
+    "Widgets/Basics.md",
     "App 1.md",
-    "App.md",
-    "node_modules/vue-matomo/src/utils.js",
-    "node_modules/vue-matomo/src/index.js",
-    "node_modules/vue-matomo/package.json",
-    "node_modules/vue-matomo/dist/vue-matomo.js",
-    "node_modules/vue-matomo/LICENSE",
-    "node_modules/vue-matomo/README.md",
-    "node_modules/vue-matomo/src",
-    "node_modules/vue-matomo/dist",
-    "node_modules/vue-matomo",
-    "node_modules/@datagouv/vitepress-plugin-matomo/docs/interfaces/IParameters.md",
-    "node_modules/@datagouv/vitepress-plugin-matomo/types/tsdoc-metadata.json",
-    "node_modules/@datagouv/vitepress-plugin-matomo/types/main.d.ts.map",
-    "node_modules/@datagouv/vitepress-plugin-matomo/docs/modules.md",
-    "node_modules/@datagouv/vitepress-plugin-matomo/docs/README.md",
-    "node_modules/@datagouv/vitepress-plugin-matomo/README.md",
     "public/images/logo-transparent.png",
     "public/images/logo.png",
     "public/images/logo-L-transparent.png",
@@ -222,14 +216,6 @@
     "Extra/images/logo-transparent.png",
     "Extra/images/logo-L-transparent.png",
     "Extra/images/icon-transparent.png",
-    "Extra/images/favicon.png",
-    "node_modules/@vue/compiler-sfc/README.md",
-    "node_modules/@vue/compiler-core/README.md",
-    "node_modules/@vitejs/plugin-vue/README.md",
-    "node_modules/@babel/parser/README.md",
-    "node_modules/@babel/parser/CHANGELOG.md",
-    "node_modules/vitepress/template/markdown-examples.md",
-    "node_modules/vitepress/template/index.md",
-    "node_modules/vitepress/template/api-examples.md"
+    "Extra/images/favicon.png"
   ]
 }

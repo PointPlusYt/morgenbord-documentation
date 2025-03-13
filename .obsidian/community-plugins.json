@@ -2,5 +2,7 @@
   "obsidian-style-settings",
   "obsidian-shellcommands",
   "harper",
-  "obsidian-linter"
+  "obsidian-linter",
+  "hide-folders",
+  "obsidian-view-mode-by-frontmatter"
 ]
