@@ -2,24 +2,41 @@
 
 ## What is Morgenbord?
 
-## How does it work?
+Morgenbord is a custom dashboard for any type of use. Here are a few ideas :
 
+- A set of notes, reminders and to-dos to organize your family activities
+- A set of graph to monitor your {insert relevant name}, ie: marketing campaign, e-reputation, servers, finances
+- Links and data to organize your day in a glance
+- Checklists and burn rates to monitor a long term project
+
+It is a web page, you can add it anywhere :
+
+- Make it your homepage on your browser
+- Install it on your phone like an app to access it on your phone
+- Cast it to a screen in your office
+- Embed it in your usual tools : Nextcloud, Obsidian, Wordpress, ClickUp…
+## How does it work
+
+This part is for tech savvies and geeks.
+
+In a nutshell, Morgenbord is an app you need to develop at least a little. It's based on Symfony so it is PHP based. You create your project with a composer command, you add existing widget with composer and you can use the symfony framework to add any feature to your app.
 ## Architecture
 
 ### Basics
 
-To use Morgenbord, you need at least two things: [the app](#morgenbord-app) and [the core](#morgenbord-core-bundle). The app is your own main frame of execution, based on Symfony 6. The core is a bundle, a dependency you only have to manage through [composer](https://getcomposer.org). The separation was made to ensure that the core is easily upgradable with dependency management. So you will create, maintain and develop your app and you will upgrade the core with a simple command.
+To use Morgenbord, you need at least two things: [the app](#morgenbord-app) and [the core](#morgenbord-core-bundle). The app is your own main frame of execution, based on Symfony. The core is a bundle, a dependency you manage through [composer](https://getcomposer.org). The separation was made to ensure that the core is easily upgradable with dependency management. So you create, maintain and develop your app and you upgrade the core in the simplest way.
 
 #### morgenbord-app
 
-The base app, you need it to set your dashboard up and customize it. It is not a dependency you add to your `composer.json` file. It is a template to create your own project. You will probably want to version it with [git](https://git-scm.com/). As any Symfony project, you will be able to build upon your own app, create your own widgets without having to create bundles. See more details on [the App's documentation](/App/).
+The base app, you need it to set your dashboard up and customize it. It is not a dependency you add to your `composer.json` file. It is a template to create your own project. You will probably want to version it with [git](https://git-scm.com/). As any Symfony project, you will be able to build upon your own app, create your own widgets without having to create bundles. See more details on [the App's documentation](/App/index).
 
 #### morgenbord-core-bundle
 
-The core bundle, it contains the main functionalities. It is made to be upgraded with composer commands. It offers a framework to build widgets, make them known to your app so the user can add the widget to a dashboard. It provides a user class and some routes. See more details on [the Core's documentation](/Core/).
+The core bundle, it contains the main features. It is made to be upgraded with composer commands. It offers a framework to build widgets, make them known to your app so the user can add the widget to a dashboard. It provides a user class and some routes. See more details on [the Core's documentation](/Core/).
 
 #### Widgets
 
+All widgets are bundles
 See more details on [creating a Widget](/Widgets/).
 
 ## The official widgets

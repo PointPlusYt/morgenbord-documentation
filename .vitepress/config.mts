@@ -18,7 +18,7 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Getting started',
-        link: '/Installation',
+        link: '/Getting started',
       },
       {
         text: 'App template',
