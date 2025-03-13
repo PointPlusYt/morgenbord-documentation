@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "56213767bf240e34",
+        "id": "fd215ece4fbc3c13",
         "type": "tabs",
         "children": [
           {
-            "id": "f0902400d8b14c8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "9149782403f05a87",
+            "id": "30cb5f4d6887af26",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,28 +20,23 @@
               "icon": "lucide-file",
               "title": "Introduction"
             }
-          }
-        ]
-      },
-      {
-        "id": "97c5c902b28ecb54",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "5f0a06c18bccb4ef",
+            "id": "c093dfab073178d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Installation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Installation"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,16 +183,21 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "f0902400d8b14c8b",
+  "active": "c093dfab073178d2",
   "lastOpenFiles": [
     "Introduction.md",
+    "Installation.md",
+    "App/index.md",
     "index.md",
     "README.md",
-    "Installation.md",
-    "Widgets/Basics.md",
-    "App/index.md",
-    "Widgets/index.md",
     "Core/index.md",
+    "Widgets/Basics.md",
+    "Widgets/Checklist.md",
+    "Widgets/index.md",
+    "Widgets/Demo.md",
+    "Getting started.md",
+    "App 1.md",
+    "App.md",
     "node_modules/vue-matomo/src/utils.js",
     "node_modules/vue-matomo/src/index.js",
     "node_modules/vue-matomo/package.json",
@@ -244,11 +230,6 @@
     "node_modules/@babel/parser/CHANGELOG.md",
     "node_modules/vitepress/template/markdown-examples.md",
     "node_modules/vitepress/template/index.md",
-    "node_modules/vitepress/template/api-examples.md",
-    "node_modules/@vue/shared/README.md",
-    "node_modules/@vue/server-renderer/README.md",
-    "node_modules/@vue/runtime-dom/README.md",
-    "node_modules/@vue/runtime-core/README.md",
-    "node_modules/@vue/reactivity/README.md"
+    "node_modules/vitepress/template/api-examples.md"
   ]
 }

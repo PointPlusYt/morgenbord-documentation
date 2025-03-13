@@ -1,4 +1,6 @@
 [
   "obsidian-style-settings",
-  "obsidian-shellcommands"
+  "obsidian-shellcommands",
+  "harper",
+  "obsidian-linter"
 ]
