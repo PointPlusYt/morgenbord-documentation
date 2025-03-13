@@ -6,7 +6,7 @@ layout: home
 
 hero:
   name: Morgenbord
-  text: Custom dashboard for everyone
+  text: "Custom dashboard\nfor everyone"
   tagline: Made with 🎔 for your productivity
   image: /images/logo-L-transparent.png
   actions:
@@ -22,7 +22,7 @@ hero:
 
 features:
   - title: Custom dashboard
-    details: Morgenbord is for any usage. Need a personal whiteboard ? Need a team board ? Need to monitor anything ?<br>Morgenbord is the perfect tool. Install existing widgets or create yours.<br><a href="./Introduction#what-is-morgenbord">What is Morgenbord ?</a>
+    details: Morgenbord is for any usage. Need a personal whiteboard ? Need a team board ? Need to monitor anything ?<br>Morgenbord is the perfect tool. Install existing widgets or create yours.<br><br><a href="./Introduction#what-is-morgenbord">What is Morgenbord ?</a>
   - title: Made with Symfony
     details: Use <code>composer</code> to install Symfony bundles that will automatically loads as widgets in your Morgenbord instance. You don't need to do more to make it work, but you can create so much more if you want, it's Symfony !<br>Sound magical, right ?
 ---
